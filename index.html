@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <div class="container">
+            <h1>Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a>
+                    <li><a href="#about">Sobre</a>
+                    <li><a href="#services">Serviços</a>
+                    <li><a href="#portfolio">Portfólio</a>
+                    <li><a href="#contact">Contatos</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <div class="container">
+            <div class="intro">
+                <h2>Sobre mim</h2>
+                <h1>Jaiany Lopes</h1>
+                <h3>E eu sou <span>Desenvolvedora Frontend Iniciante</span></h3>
+                <p>Migrar para a careira de Desenvolvedora Frontend e programação, é algo que eu já deveria ter feito a bastante tempo. Uma vez que a área de TI sempre esteve presente na minha rotina, profissional e pessoal. Sendo uma pessoa autodidata, meus conhecimentos tecnológicos sempre vieram com facilidade e muita diversão. Hoje essa área que antes era um hobby, eu pretento fazer uma carreira promissora.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/jaiany-lopes-617023248/">LinkedIn</a>
+                    <a href="https://github.com/lopesjaiany">GitHub</a>
+                    <a href="https://www.instagram.com/jaianyfreemont/">Instagram</a>
+                </div>
+                <button onclick="window.location.href='curriculo.pdf'">Download CV</button>
+
+            </div>
+            <div class="profile-pic">
+                <img src="images/yo.png" alt="Jaiany Lopes">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção About -->
+    <section id="about">
+        <div class="container">
+            <div class="about-me">
+                <h2>Sobre Mim</h2>
+                <p>Tenho amplo conhecimento em informática, como: PacoteOffice 360, PowerBi, designer grágico (CorelDraw, GIMP, PhotoFiltre e entre outros)</p>
+            </div>
+            <div class="profile-pic">
+                <img src="images/me.png" alt="Jaiany Lopes" width="350" height="350">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="services">
+        <div class="container">
+            <h2>Outros Serviços</h2>
+            <div class="service-box">
+                <div class="service">
+                    <h3>Designer Gráfico</h3>
+                    <p>Experiencia de quatro anos como designer grágico. Domínio das ferramentas CorelDraw, PhotoFiltre e GIMP. </p>
+                </div>
+                <div class="service">
+                    <h3>Desenvolvedora Web</h3>
+                    <p>Desenvolver sites usando HTML, CSS e JavaScript é novo para mim, mas tem sido muito divertido e inovador.</p>
+                </div>
+                <div class="service">
+                    <h3>Programação em Python</h3>
+                    <p>Já no curso básico de Python, meu projeto de Gerenciamento de Medicamentos tem sido trabalhado com bastante cautela e dedicação. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Últimos Projetos</h2>
+        <div class="projects-container">
+            <!-- Card de Projeto 1 -->
+            <div class="project-card">
+                <img src="images/gerenc.png" alt="Projeto 1" width="210" height="300">
+                <h3>Gerenciamento de Medicamentos</h3>
+            </div>
+            
+            <!-- Balão "EM BREVE" 1 -->
+            <div class="project-item">
+                <div class="coming-soon">
+                    <p>EM BREVE</p>
+                </div>
+            </div>
+            
+            <!-- Balão "EM BREVE" 2 -->
+            <div class="project-item">
+                <div class="coming-soon">
+                    <p>EM BREVE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Seu Nome">
+                <input type="email" placeholder="Seu Email">
+                <textarea placeholder="Sua Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Jaiany Lopes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
