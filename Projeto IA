@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jlo Artigos Tecnológicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--configuração de cabeçalho-->
+    <header>
+        <div class="container">
+            <h1>TESSA A NOVA IA
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a>
+                        <li><a href="#about">Sobre</a>
+                        <li><a href="#contact">Contatos</a>
+                        <li><a href="#project">Projetos</a>       
+                    </ul>
+                </nav>
+            </h1>
+        </div>
+    </header>
+    <!--Seleção da página principal-->
+    <section id="home">
+        <div class="container">
+            <div class="intro">
+                <h2>A IA</h2>
+                <h1>TESSA</h1>
+                <h3>Uma <span>Inteligência Artificial</span></h3>
+                <p3>Criada para ser seus olhos e ouvidos nas tarefas simples a mais complicadas. Com uma integração direta ao seu comando.</p3>
+                <div class="social links">
+                    <a href="https://github.com/lopesjaiany">GitHub</a>
+                    </div>
+                    <button onclicke=window.location.href='location'>veja mais</button>
+                    <div class="profile-pic">
+                        <img src="praticasjlo/iateste.png" alt="TESSA">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seção About -->
+    <section id="about">
+        <div class="container">
+            <div class="about-me">
+                <h2>Sobre TESSA</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur sint quae et itaque, accusamus molestias odio quidem ex. Hic ab consequuntur corrupti magni. Assumenda omnis numquam qui perferendis nulla nemo.</p>
+            </div>
+            <div class="profile-pic">
+                <img src="praticasjlo/tessadois.png" alt="IA" width="350" height="350">
+            </div>
+        </div>
+    </section>
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Seu Nome">
+                <input type="email" placeholder="Seu Email">
+                <textarea placeholder="Sua Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+     <!-- Rodapé -->
+     <footer>
+        <p>&copy; 2024 Jaiany Lopes. Todos os direitos reservados.</p>
+    </footer>
 
+    <script src="script.js"></script>
+</body>
+</html>
